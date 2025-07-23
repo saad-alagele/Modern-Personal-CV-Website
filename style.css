@@ -1,0 +1,151 @@
+/* CSS code */
+
+*{
+
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(244, 245, 241);
+
+}
+
+.MainContainer{
+
+    margin: 30px auto;
+    padding: 0;
+    display: flex;
+    width: 600px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: -2px -2px 10px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    
+}
+
+h2{
+
+    text-transform:uppercase;
+}
+
+
+.ContainerLeft{
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    background-color: #1E252E;
+    border-radius: 10px 0 0 10px;
+    color: white;
+    
+
+}
+
+.ContainerLeft h2 {
+
+    margin: 50px 30px 10px;
+    text-align: left;
+}
+
+.ContainerLeft ul li{
+
+    padding: 3px;
+    font-size: 14px;
+    text-align: left;
+    color: #dae0e0;
+    
+}
+
+.Profil-Img img{
+
+    width: 200px;
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+    
+}
+
+.Name-Job h1{
+    margin-top: 20px;
+    margin-bottom: 0 ;
+    font-size: 35px;
+    font-family: serif;
+    
+}
+.Name-Job p{
+    margin: 5px auto;
+    color: #6ca1d4;
+}
+
+
+.Contact ul li i {
+
+    color: #6ca1d4 ;
+}
+
+
+.Skills ul li {
+
+    padding: 3px;
+    font-size: 14px;
+    text-align: left;
+    color: #dae0e0;
+
+}
+
+.ContainerRight{
+    width: 60%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 0 10px 10px 0;
+    text-align: left;
+}
+
+.profile{
+    margin: 30px auto ;
+    margin-bottom: 50px;
+    padding: 0px;
+}
+
+
+.WorkExperience{
+    margin: 30px auto ;
+    margin-bottom: 50px;
+    padding: 0px;
+}
+
+
+.WorkExperience ul {
+  list-style-position: inside;
+  padding-left: 0;
+  margin-left: 0;
+}
+.WorkExperience ul li{
+    padding: 5px ;
+}
+
+
+.Projects{
+    margin: 30px auto ;
+    margin-bottom: 50px;
+    padding: 0px;
+}
+
+.Projects ul {
+  list-style-position: inside;
+  padding-left: 0;
+  margin-left: 0;
+}
+.Projects ul li{
+    padding: 5px 0px;
+}
+
+.Education{
+    margin: 30px auto ;
+    margin-bottom: 50px;
+    padding: 0px;
+}
+
+
